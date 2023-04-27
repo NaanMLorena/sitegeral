@@ -1,0 +1,38 @@
+/* ESTILIZAÇÃO DA DIV DO PDF */
+
+#pdf-object {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+
+/* .pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.pdf img {
+    width: 50%;
+    margin: 1%;
+}
+
+.butao {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 1%;
+    width: 200px;
+    height: 20px;
+    background-color: black;
+} */

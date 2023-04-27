@@ -1,0 +1,48 @@
+/* TRABALHOS */
+
+.trabalhos { /*Formatação das categorias*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*Alinha as categorias as centro horizontalmente*/
+    margin: 2%; /*Separa a navbar das categorias*/
+    color: #F5F7FF; /*Define a cor do texto*/
+    font-size: 25px; /*Define o tamanho da fonte*/
+}
+
+.butao { /*Estilização dos butões das cate  gorias*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Alinha o texto ao centro horizontalmente*/
+    background-color: #161917; /*Define a cor da caixa*/
+    width: 500px; /*Define o comprimento da caixa*/
+    height: 430px; /*Define a altura da caixa*/
+    border-radius: 0.5rem; /*Define a borda da caixa*/
+    margin: 1%;
+}
+
+.butao-img img {
+    width: 500px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.butao-txt {
+    text-align: center;
+    margin: 2%;
+}
+
+.acesso {
+    background-color: rgba(0, 0, 0, 0.5); /*Define a cor do botão acessar*/
+    padding-block: 10px;
+    padding-inline: 40px;
+    border-radius: 0.5rem;
+}
+
+.trabalhos a {
+    transition: 0.4s;
+}
+
+.trabalhos a:hover { /*Hover das categorias*/
+    color: #727B96; /*Faz com que a fonte fique amarela*/
+    scale: 1.05;    
+}

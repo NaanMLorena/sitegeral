@@ -1,0 +1,12 @@
+/* LINKS */
+
+.links {
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #161917;
+    border-radius: 1rem;
+}
+
+.links-item {
+    margin: 0.5rem;
+}

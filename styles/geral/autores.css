@@ -1,0 +1,47 @@
+/* AUTORES */
+
+.autores-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 300px;
+    color: #F5F7FF;
+    text-align: center;
+    background-color: #161917;
+    border: 1rem solid rgba(0, 0, 0, 0);
+    border-radius: 10%;
+    margin: 1%;
+}
+
+.wrapper img {
+    height: 15rem;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+
+.wrapper img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+.wrapper h1 {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.wrapper h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.wrapper p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1rem;
+}

@@ -1,0 +1,23 @@
+/* CATEGORIAS */
+
+.categorias { /*Formatação das categorias*/
+    display: flex;
+    justify-content: space-around; /*Alinha as categorias as centro horizontalmente*/
+    margin-top: 3%; /*Separa a navbar das categorias*/
+    color: #F5F7FF; /*Define a cor do texto*/
+    font-size: 30px; /*Define o tamanho da fonte*/
+}
+
+.butao { /*Estilização dos butões das cate  gorias*/
+    display: flex;
+    justify-content: center; /*Alinha o texto ao centro horizontalmente*/
+    align-items: center; /*Alinha o texto ao centro verticalmente*/
+    background-color: #161917; /*Define a cor da caixa*/
+    width: 200px; /*Define o comprimento da caixa*/
+    height: 100px; /*Define a altura da caixa*/
+    border-radius: 0.5rem; /*Define a borda da caixa*/
+}
+
+.categorias a:hover { /*Hover das categorias*/
+    color: #727B96; /*Faz com que a fonte fique amarela*/    
+}
