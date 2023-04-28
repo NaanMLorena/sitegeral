@@ -13,7 +13,9 @@
     display: flex;
     flex-direction: column;
     align-items: center; /*Alinha o texto ao centro horizontalmente*/
-    background-color: #161917; /*Define a cor da caixa*/
+    /*background-color: #161917;*/ /*Define a cor da caixa*/
+    background-color: rgba(22, 25, 23, 0.255);
+    backdrop-filter: blur(15rem);
     width: 500px; /*Define o comprimento da caixa*/
     height: 430px; /*Define a altura da caixa*/
     border-radius: 0.5rem; /*Define a borda da caixa*/
@@ -32,10 +34,12 @@
 }
 
 .acesso {
-    background-color: rgba(0, 0, 0, 0.5); /*Define a cor do botão acessar*/
+    /*background-color: rgba(0, 0, 0, 0.5);*/ /*Define a cor do botão acessar*/
+    background-color: rgba(22, 25, 23, 0.255);
     padding-block: 10px;
     padding-inline: 40px;
     border-radius: 0.5rem;
+    backdrop-filter: blur(15rem);
 }
 
 .trabalhos a {

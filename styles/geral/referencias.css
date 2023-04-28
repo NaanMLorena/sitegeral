@@ -3,7 +3,8 @@
 .links {
     padding: 1rem;
     margin: 0.5rem;
-    background-color: #161917;
+    background-color: rgba(22, 25, 23, 0.255);
+    backdrop-filter: blur(15rem);
     border-radius: 1rem;
 }
 

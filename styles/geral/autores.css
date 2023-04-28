@@ -11,8 +11,9 @@
     width: 300px;
     color: #F5F7FF;
     text-align: center;
-    background-color: #161917;
-    border: 1rem solid rgba(0, 0, 0, 0);
+    background-color: rgba(22, 25, 23, 0.255);
+    backdrop-filter: blur(15rem);
+    padding: 1rem;
     border-radius: 10%;
     margin: 1%;
 }

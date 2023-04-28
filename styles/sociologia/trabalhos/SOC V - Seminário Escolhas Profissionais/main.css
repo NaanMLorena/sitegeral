@@ -3,6 +3,7 @@
 .categorias { /*Formatação das categorias*/
     display: flex;
     justify-content: space-around; /*Alinha as categorias as centro horizontalmente*/
+    flex-wrap: wrap;
     margin-top: 3%; /*Separa a navbar das categorias*/
     color: #F5F7FF; /*Define a cor do texto*/
     font-size: 30px; /*Define o tamanho da fonte*/
@@ -12,7 +13,10 @@
     display: flex;
     justify-content: center; /*Alinha o texto ao centro horizontalmente*/
     align-items: center; /*Alinha o texto ao centro verticalmente*/
-    background-color: #161917; /*Define a cor da caixa*/
+    margin-bottom: 2rem;
+    /*background-color: #161917;*/ /*Define a cor da caixa*/
+    background-color: rgba(22, 25, 23, 0.255);
+    backdrop-filter: blur(15rem);
     width: 200px; /*Define o comprimento da caixa*/
     height: 100px; /*Define a altura da caixa*/
     border-radius: 0.5rem; /*Define a borda da caixa*/
