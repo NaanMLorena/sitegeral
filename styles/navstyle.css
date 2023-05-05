@@ -37,10 +37,6 @@ a:hover {
     margin: 1%;
     text-decoration: none;
     font-size: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     position: sticky;
     z-index: 9999;
 }
@@ -48,12 +44,6 @@ a:hover {
 .container {
     gap: 6rem;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.container02 {
-    width: auto;
 }
 
 .nav-item {
@@ -63,7 +53,7 @@ a:hover {
 /* ÍCONE INICIAL */
 
 .menu-icon {
-    width: 2.5rem;
+    width: 10rem;
 }
 
 /* ITEM INICIAL E FINAL */
@@ -85,9 +75,6 @@ a:hover {
 .mat-content {
     display: flex;
     gap: 3rem;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     font-size: 1.5rem;
 }
 
